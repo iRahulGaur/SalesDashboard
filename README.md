@@ -4,6 +4,8 @@
 
 ---
 
+This Tableau dashboard offers a 360-degree view of retail sales data, highlighting key metrics such as average age, discounts, and revenue by gender. It features interactive elements like bar graphs for monthly sales, a map for sales by location, and a pie chart for regional distribution. The dashboard is designed to facilitate informed decision-making by providing a clear understanding of sales trends across various demographics and regions. With its intuitive layout, it serves as an essential tool for analyzing and optimizing retail performance. 📊🛒
+
 ### Dashboard information
 
  - In this dashboard presents information about sales data.
