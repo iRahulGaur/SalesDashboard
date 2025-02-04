@@ -1,19 +1,71 @@
-# SalesDashboard
+# Sales Dashboard using Tableau & Python
 
-![Caption](SalesDashboard.png)
+## Overview
+This project presents an **interactive Sales Dashboard** built using **Tableau** and **Python**. It enables data-driven decision-making by visualizing key business insights such as revenue trends, regional sales performance, and customer behavior.
+
+![Sales Dashboard](SalesDashboard.png)
+
+## Technologies Used
+- **Tableau** - Data visualization and dashboard creation
+- **Excel/CSV** - Data source
+
+## Features
+- 📊 **Interactive visualizations** for sales trends, customer insights, and revenue analytics
+- 📍 **Region-wise sales performance analysis**
+- 📈 **Year-over-year growth trends**
+- 🏷️ **Product category performance tracking**
+- 🔍 **Filters and drill-down options for deeper insights**
+
+## Project Structure
+```
+/SalesDashboard
+│── data/
+│   ├── sales_data.csv   # Raw sales data
+│── scripts/
+│   ├── data_cleaning.py # Preprocessing script in Python
+│── dashboard/
+│   ├── sales_dashboard.twb # Tableau dashboard file
+│── README.md
+```
+
+## Installation & Setup
+### Prerequisites
+- **Tableau Desktop** (or Tableau Public)
+- **Python 3.8+**
+- Required Python Libraries: Pandas
+
+### Steps to Run
+1. **Clone the Repository**
+   ```sh
+   git clone https://github.com/iRahulGaur/SalesDashboard.git
+   cd SalesDashboard
+   ```
+2. **Install Dependencies**
+   ```sh
+   pip install pandas
+   ```
+3. **Run Data Preprocessing Script**
+   ```sh
+   python scripts/data_cleaning.py
+   ```
+4. **Open the Tableau Dashboard**
+   - Launch **Tableau Desktop**
+   - Open `dashboard/sales_dashboard.twb`
+   - Connect it to the cleaned dataset
+
+## Key Visualizations
+- **Revenue & Sales Trends** 📊
+- **Customer Demographics & Segments** 👥
+- **Profitability by Region & Category** 🌎
+- **Monthly & Quarterly Performance Breakdown** 📆
+
+## Future Enhancements
+- Integrate **real-time sales data** from a database or API
+- Automate data updates with **Tableau Prep**
+- Deploy the dashboard on **Tableau Server or Tableau Public**
+
+## License
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
-
-This Tableau dashboard offers a 360-degree view of retail sales data, highlighting key metrics such as average age, discounts, and revenue by gender. It features interactive elements like bar graphs for monthly sales, a map for sales by location, and a pie chart for regional distribution. The dashboard is designed to facilitate informed decision-making by providing a clear understanding of sales trends across various demographics and regions. With its intuitive layout, it serves as an essential tool for analyzing and optimizing retail performance. 📊🛒
-
-### Dashboard information
-
- - In this dashboard presents information about sales data.
- - It includes a Line graph which shows the sales performance on monthly chart.
- - It includes a bar graph which shows the sales divided into different Age groups.
- - Sales represented on a donut chart which is divided into regions of US.
- - It includes a map of USA with sales figures and different color grading for high or low sales.
- - It includes a stacked bar graph which shows different age groups and gender for total sales.
- - All these graphs can be filtered using any graph, all the data will be filtered using any graph.
- - A total summar is also presented on the top of the dashboard.
- - Database location [here](https://github.com/stanley-george-joseph/Customer-Analysis-Tableau/blob/main/sales_06_FY2020-21.csv.zip)
+Let me know if you have any questions or suggestions! 🚀
