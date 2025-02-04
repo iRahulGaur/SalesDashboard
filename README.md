@@ -53,6 +53,8 @@ This project presents an **interactive Sales Dashboard** built using **Tableau**
    - Open `dashboard/sales_dashboard.twb`
    - Connect it to the cleaned dataset
 
+Database location [here](https://github.com/stanley-george-joseph/Customer-Analysis-Tableau/blob/main/sales_06_FY2020-21.csv.zip)
+
 ## Key Visualizations
 - **Revenue & Sales Trends** 📊
 - **Customer Demographics & Segments** 👥
