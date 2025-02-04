@@ -1,7 +1,7 @@
-# Sales Dashboard using Tableau & Python
+# Sales Dashboard using Tableau
 
 ## Overview
-This project presents an **interactive Sales Dashboard** built using **Tableau** and **Python**. It enables data-driven decision-making by visualizing key business insights such as revenue trends, regional sales performance, and customer behavior.
+This project presents an **interactive Sales Dashboard** built using **Tableau**. It enables data-driven decision-making by visualizing key business insights such as revenue trends, regional sales performance, and customer behavior.
 
 ![Sales Dashboard](SalesDashboard.png)
 
@@ -21,8 +21,6 @@ This project presents an **interactive Sales Dashboard** built using **Tableau**
 /SalesDashboard
 │── data/
 │   ├── sales_data.csv   # Raw sales data
-│── scripts/
-│   ├── data_cleaning.py # Preprocessing script in Python
 │── dashboard/
 │   ├── sales_dashboard.twb # Tableau dashboard file
 │── README.md
@@ -31,8 +29,6 @@ This project presents an **interactive Sales Dashboard** built using **Tableau**
 ## Installation & Setup
 ### Prerequisites
 - **Tableau Desktop** (or Tableau Public)
-- **Python 3.8+**
-- Required Python Libraries: Pandas
 
 ### Steps to Run
 1. **Clone the Repository**
@@ -40,15 +36,7 @@ This project presents an **interactive Sales Dashboard** built using **Tableau**
    git clone https://github.com/iRahulGaur/SalesDashboard.git
    cd SalesDashboard
    ```
-2. **Install Dependencies**
-   ```sh
-   pip install pandas
-   ```
-3. **Run Data Preprocessing Script**
-   ```sh
-   python scripts/data_cleaning.py
-   ```
-4. **Open the Tableau Dashboard**
+2. **Open the Tableau Dashboard**
    - Launch **Tableau Desktop**
    - Open `dashboard/sales_dashboard.twb`
    - Connect it to the cleaned dataset
